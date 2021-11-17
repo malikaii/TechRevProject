@@ -1,0 +1,31 @@
+.amy-container{
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    box-shadow: inset 0 0 0 1000px rgba(212, 126, 126, 0.2);
+    object-fit: contain;
+}
+
+.amy{
+    padding-top:5em;
+    padding-left: 5em;
+}
+
+.amy > h1{
+    font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: large;
+
+    
+}
+
+.rating {
+    width: 80%;
+    
+}
+
+.form-control{
+    width: 50%;
+}

@@ -1,0 +1,17 @@
+.profile-container{
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    box-shadow: inset 0 0 0 1000px rgba(86, 228, 51, 0.2);
+    object-fit: contain;
+}
+.profile-container > h1{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.bio-container > p{
+    font-weight: bold;
+}
